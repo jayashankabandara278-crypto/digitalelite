@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#08091b" />
+  <meta name="description" content="Elite Digital Work creates striking business websites, premium e-commerce experiences, and custom web applications. Design with impact. Development with purpose." />
+  <title>Elite Digital Work | Creative Web Design & Development</title>
+  <meta property="og:title" content="Elite Digital Work | Creative Web Design & Development" />
+  <meta property="og:description" content="Distinctive design. Powerful digital experiences. Websites, e-commerce and custom web solutions." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-glow" aria-hidden="true"></div>
+  <div class="page-progress" aria-hidden="true" id="page-progress"></div>
+
+  <header class="site-header" id="top">
+    <div class="shell nav-bar">
+      <a class="brand" href="#top" aria-label="Elite Digital Work home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span class="brand-word" data-brand>Elite Digital Work</span><span class="brand-period">.</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#packages">Packages</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-btn" type="button" id="theme-toggle" aria-label="Switch to light theme" title="Toggle light/dark theme"><span id="theme-icon" aria-hidden="true">☼</span></button>
+        <a class="btn btn-small btn-primary nav-cta" href="#contact">Start a project <span aria-hidden="true">↗</span></a>
+        <button class="menu-btn" type="button" id="menu-toggle" aria-controls="mobile-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#services">Services</a>
+      <a href="#work">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#packages">Packages</a>
+      <a href="#contact">Contact us</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-heading">
+      <div class="hero-copy reveal">
+        <div class="eyebrow available"><span class="pulse-dot"></span><span data-availability>Now booking creative projects</span></div>
+        <p class="hero-overline"><span class="overline-stroke"></span> CREATIVE DIGITAL STUDIO <span class="overline-star">✳</span> SRI LANKA · WORLDWIDE</p>
+        <h1 id="hero-heading">We make<br /><span class="gradient-text">digital feel</span><br />different<span class="hero-stop">.</span></h1>
+        <p class="hero-lede">Bold websites. Seamless experiences. Smart business solutions. We turn ambitious ideas into digital work that <strong>looks exceptional and works beautifully.</strong></p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-large">Let's build something <span aria-hidden="true">↗</span></a>
+          <a href="#work" class="btn btn-outline btn-large">See selected work <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-trust"><span class="hero-trust-symbol" aria-hidden="true">✺</span><span><strong>Creative by design. Technical by nature.</strong><br />Strategy · Design · Development</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Artistic preview of a premium website designed by Elite Digital Work">
+        <div class="hero-aurora" aria-hidden="true"></div>
+        <div class="hero-art-ring" aria-hidden="true"></div>
+        <div class="browser-frame">
+          <div class="browser-top"><div class="traffic-lights"><i></i><i></i><i></i></div><span>elite / creative preview</span><div class="browser-toolbar">•••</div></div>
+          <div class="mock-site">
+            <div class="mock-nav"><b>ORBIT<span>®</span></b><span>Work &nbsp;&nbsp; Studio &nbsp;&nbsp; Contact</span><i aria-hidden="true">↗</i></div>
+            <div class="mock-inner"><div class="mock-copy"><small>THE ART OF STANDING OUT</small><h2>Extraordinary<br />starts here.</h2><div class="mock-line"></div><span class="mock-button">EXPLORE THE COLLECTION &nbsp; ↗</span></div><div class="mock-object"><div class="object-halo"></div><div class="object-orb"></div><div class="object-disc"></div></div></div>
+            <div class="mock-bottom"><span>DESIGNED FOR WHAT'S NEXT</span><span>01 / 03</span></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-one"><span class="chip-icon">✦</span><div><b>Standout design</b><small>Built to make an impact</small></div></div>
+        <div class="floating-chip chip-two"><span class="chip-icon green">↗</span><div><b>Responsive by default</b><small>Beautiful on every device</small></div></div>
+        <div class="hero-orbit-label" aria-hidden="true">CRAFTED WITH INTENTION <span>✳</span></div>
+      </div>
+      <a class="scroll-cue" href="#services">DISCOVER MORE <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="value-band" aria-label="Our specialties"><div class="shell value-inner"><span><span class="value-spark">✦</span> BRAND-LED DESIGN</span><span class="value-divider"></span><span><span class="value-spark">✦</span> CUSTOM DEVELOPMENT</span><span class="value-divider"></span><span><span class="value-spark">✦</span> DIGITAL EXPERIENCES</span><span class="value-divider"></span><span><span class="value-spark">✦</span> BUILT FOR GROWTH</span></div></section>
+
+    <section class="section shell" id="services" aria-labelledby="services-heading">
+      <div class="section-intro reveal"><div><p class="section-kicker"><span>01 /</span> WHAT WE DO</p><h2 id="services-heading">We build what’s<br /><span class="muted-heading">next for you.</span></h2></div><p>From a fresh brand presence to an intuitive business platform, we combine visual storytelling and thoughtful technology to bring your vision online.</p></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><div class="service-top"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div><span class="service-count">01</span></div><h3>Business Websites</h3><p>Professional websites built to introduce your brand, showcase your services, and attract customers.</p><span class="service-tags">Company sites · Landing pages</span></article>
+        <article class="service-card reveal"><div class="service-top"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7h16l-1 13H5L4 7ZM8 9V6a4 4 0 0 1 8 0v3"/></svg></div><span class="service-count">02</span></div><h3>E-commerce Stores</h3><p>Beautiful online shopping experiences with product pages, easy navigation, and clear buying journeys.</p><span class="service-tags">Catalogs · Online stores</span></article>
+        <article class="service-card reveal"><div class="service-top"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="5" rx="1"/><rect x="13" y="10" width="8" height="11" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/></svg></div><span class="service-count">03</span></div><h3>Custom Web Systems</h3><p>Practical dashboards, inventory trackers, booking tools, and digital solutions for everyday business work.</p><span class="service-tags">Dashboards · Web apps</span></article>
+        <article class="service-card reveal"><div class="service-top"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v3M12 18v3M4.2 4.2l2.2 2.2M17.6 17.6l2.2 2.2M3 12h3M18 12h3M4.2 19.8l2.2-2.2M17.6 6.4l2.2-2.2"/><circle cx="12" cy="12" r="5"/></svg></div><span class="service-count">04</span></div><h3>Redesign & Support</h3><p>Refresh an outdated website, improve its experience, or get help keeping things running smoothly.</p><span class="service-tags">Redesign · Maintenance</span></article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work" aria-labelledby="work-heading"><div class="shell">
+      <div class="section-intro reveal"><div><p class="section-kicker"><span>02 /</span> SELECTED WORK</p><h2 id="work-heading">Made to be seen.<br /><span class="muted-heading">Built to be used.</span></h2></div><p>A selection of website and software concepts spanning bold brand experiences, online catalogs and practical tools.</p></div>
+      <div class="work-header"><p class="work-note" id="work-note">Portfolio examples — customize these projects before publishing.</p><div class="filter-pills" role="group" aria-label="Filter projects"><button class="filter-pill active" data-filter="all" type="button" aria-pressed="true">All work</button><button class="filter-pill" data-filter="website" type="button" aria-pressed="false">Websites</button><button class="filter-pill" data-filter="commerce" type="button" aria-pressed="false">E-commerce</button><button class="filter-pill" data-filter="system" type="button" aria-pressed="false">Web systems</button></div></div>
+      <div id="project-grid" class="project-grid" aria-live="polite"></div>
+      <div class="work-footer reveal"><span>Have something different in mind?</span><a href="#contact" class="text-link">Let's create it together <span aria-hidden="true">↗</span></a></div>
+    </div></section>
+
+    <section class="expertise-section" aria-label="Our approach and technology">
+      <div class="shell expertise-layout">
+        <div class="expertise-feature reveal"><p class="section-kicker"><span>BEYOND THE ORDINARY</span> / OUR APPROACH</p><h2>Not just websites.<br /><em>Digital statements.</em></h2><p>Every pixel has a purpose. Every interaction should feel effortless. We blend striking visuals with practical technology to create experiences people remember.</p><a href="#contact" class="text-link">Tell us your idea <span aria-hidden="true">↗</span></a><span class="expertise-bigstar" aria-hidden="true">✳</span></div>
+        <div class="expertise-details reveal"><div class="expertise-mini"><span class="expertise-number">01 /</span><div><h3>Design that feels different</h3><p>Personality-rich layouts, clear content, and a polished experience across screen sizes.</p></div><span aria-hidden="true">↗</span></div><div class="expertise-mini"><span class="expertise-number">02 /</span><div><h3>Development that makes sense</h3><p>Responsive front ends, considered integrations, and useful tools for real workflows.</p></div><span aria-hidden="true">↗</span></div><div class="expertise-mini"><span class="expertise-number">03 /</span><div><h3>A smooth path to launch</h3><p>Clear communication, structured milestones, and room for your business to evolve.</p></div><span aria-hidden="true">↗</span></div></div>
+      </div>
+      <div class="shell capabilities"><span>WHAT WE WORK WITH</span><div><span>JavaScript</span><span>React</span><span>Supabase</span><span>Netlify</span><span>Responsive UI</span></div></div>
+    </section>
+
+    <section class="section shell" id="process" aria-labelledby="process-heading"><div class="section-intro reveal"><div><p class="section-kicker"><span>03 /</span> THE PROCESS</p><h2 id="process-heading">Great work starts<br /><span class="muted-heading">with a good process.</span></h2></div><p>Building a website shouldn't be confusing. Here's how we take your project from first conversation to launch.</p></div><div class="process-grid">
+      <article class="process-step reveal"><span class="process-num">01 <span>↗</span></span><h3>Discover</h3><p>We learn about your business, goals, audience, and the features you need.</p></article>
+      <article class="process-step reveal"><span class="process-num">02 <span>✳</span></span><h3>Design</h3><p>We shape a clear, appealing experience that feels right for your brand.</p></article>
+      <article class="process-step reveal"><span class="process-num">03 <span>⌘</span></span><h3>Develop</h3><p>We bring everything to life with responsive layouts and functional features.</p></article>
+      <article class="process-step reveal"><span class="process-num">04 <span>✓</span></span><h3>Launch</h3><p>We check the final experience, publish your site, and help you get started.</p></article>
+    </div></section>
+
+    <section class="section packages-section" id="packages" aria-labelledby="packages-heading"><div class="shell"><div class="section-intro reveal"><div><p class="section-kicker"><span>04 /</span> FIND YOUR FIT</p><h2 id="packages-heading">Built for your<br /><span class="muted-heading">next big move.</span></h2></div><p>Every business is different. Choose a starting point and we'll provide a quote based on your exact requirements.</p></div>
+      <div class="packages-grid">
+        <article class="package-card reveal"><p class="package-type">ESSENTIAL</p><h3>Starter Website</h3><p>Make a strong first impression and give customers a place to find you.</p><div class="package-price">Custom quote <span>based on your needs</span></div><ul><li>Modern responsive pages</li><li>Services and business details</li><li>Contact section</li><li>Basic search-friendly structure</li></ul><button class="btn btn-outline package-button" type="button" data-package="Starter Website">Enquire about Starter <span>↗</span></button></article>
+        <article class="package-card featured reveal"><div class="popular-tag">POPULAR CHOICE</div><p class="package-type">GROWTH</p><h3>Business Pro</h3><p>A polished website with more space for your brand, work, and offerings.</p><div class="package-price">Custom quote <span>based on your needs</span></div><ul><li>Everything in Starter</li><li>Multiple custom page sections</li><li>Portfolio or product showcase</li><li>Enhanced interactions</li></ul><button class="btn btn-primary package-button" type="button" data-package="Business Pro">Enquire about Business Pro <span>↗</span></button></article>
+        <article class="package-card reveal"><p class="package-type">TAILORED</p><h3>Custom Web App</h3><p>For businesses that need more than a website — workflows, data, and tools.</p><div class="package-price">Let's discuss <span>your exact scope</span></div><ul><li>Custom features and workflows</li><li>Dashboard or management system</li><li>Database integration if required</li><li>Project-specific deployment</li></ul><button class="btn btn-outline package-button" type="button" data-package="Custom Web App">Enquire about Custom <span>↗</span></button></article>
+      </div><p class="package-disclaimer">No fixed prices shown. Final features, timeline, and cost are agreed before development begins.</p>
+    </div></section>
+
+    <section class="shell" aria-label="Start your next project"><div class="mid-cta reveal"><div class="mid-cta-copy"><span>HAVE A VISION IN MIND?</span><h2>Let's create something<br /><em>worth remembering.</em></h2></div><a href="#contact" class="mid-cta-arrow" aria-label="Discuss your project">↗</a><span class="mid-cta-watermark" aria-hidden="true">EDW</span></div></section>
+
+    <section class="section shell faq-section" aria-labelledby="faq-heading"><div class="faq-lead reveal"><p class="section-kicker"><span>05 /</span> GOOD TO KNOW</p><h2 id="faq-heading">Questions?<br /><span class="muted-heading">We've got answers.</span></h2><p>Still wondering about something? Send us a message — we're happy to talk through your idea.</p><a href="#contact" class="text-link">Ask us a question <span aria-hidden="true">↗</span></a></div><div class="faq-items reveal">
+      <details><summary>Can I update my website after launch?<span class="faq-plus">+</span></summary><p>Yes. Depending on your package, we can build an easy-to-manage setup or help make updates for you. We'll discuss the best approach before development.</p></details>
+      <details><summary>Will my website work on mobile phones?<span class="faq-plus">+</span></summary><p>Absolutely. Responsive layouts are part of our standard approach, so your website is designed for phones, tablets, and desktop screens.</p></details>
+      <details><summary>Can you redesign my existing website?<span class="faq-plus">+</span></summary><p>Yes. We can assess your current website, identify what should change, and plan a redesign that fits your business goals.</p></details>
+      <details><summary>How much does a website cost?<span class="faq-plus">+</span></summary><p>It depends on the number of pages, design requirements, features, and integrations. Tell us what you need and we'll put together a tailored quote.</p></details>
+    </div></section>
+
+    <section class="contact-wrap" id="contact" aria-labelledby="contact-heading"><div class="shell contact-grid"><div class="contact-copy reveal"><p class="section-kicker"><span>06 /</span> SAY HELLO</p><h2 id="contact-heading">Let’s make<br /><span class="gradient-text">something great.</span></h2><p>Tell us a little about your idea. Whether it’s a fresh website, a reimagined brand presence, or a custom business tool, let’s make your next move exceptional.</p><div class="contact-methods"><a id="contact-email" class="contact-method" href="#contact"><span class="method-icon">✉</span><span><small>EMAIL</small><strong id="email-display">Add your email in script.js</strong></span><span class="method-arrow">↗</span></a><a id="contact-whatsapp" class="contact-method" href="#contact" hidden><span class="method-icon">↗</span><span><small>WHATSAPP</small><strong>Chat with us directly</strong></span><span class="method-arrow">↗</span></a></div><p class="contact-location" id="location-display"></p></div>
+      <div class="contact-form-card reveal"><div class="form-head"><h3>Tell us about your project</h3><p>We'd love to hear what you're working on.</p></div><form id="project-form" name="project-enquiry" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="project-enquiry" /><p class="visually-hidden"><label>Don't fill this out: <input name="bot-field" /></label></p><div class="form-row"><div class="form-field"><label for="full-name">Your name <span>*</span></label><input id="full-name" name="name" type="text" placeholder="Your name" autocomplete="name" required maxlength="120" /></div><div class="form-field"><label for="email">Email address <span>*</span></label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required maxlength="254" /></div></div><div class="form-field"><label for="project-type">What do you need? <span>*</span></label><select id="project-type" name="project_type" required><option value="" selected disabled>Select a service</option><option>Business Website</option><option>E-commerce Store</option><option>Custom Web System</option><option>Website Redesign</option><option>Starter Website</option><option>Business Pro</option><option>Custom Web App</option><option>Other / Not sure yet</option></select></div><div class="form-field"><label for="project-message">Tell us a bit more <span>*</span></label><textarea id="project-message" name="message" rows="5" placeholder="What are you looking to build? Tell us about your idea, goals, or timeline..." required maxlength="4000"></textarea></div><button type="submit" class="btn btn-primary btn-submit">Send project enquiry <span aria-hidden="true">↗</span></button><p class="form-footnote" id="form-footnote">Your enquiry will be submitted securely through the website form after deployment to Netlify.</p></form></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-main"><div><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span class="brand-word" data-brand>Elite Digital Work</span><span class="brand-period">.</span></a><p>Creative minds. Digital craft.<br />Made for what comes next.</p></div><div class="footer-links"><div><b>EXPLORE</b><a href="#services">Services</a><a href="#work">Projects</a><a href="#process">Process</a><a href="#packages">Packages</a></div><div><b>GET IN TOUCH</b><a href="#contact">Project enquiry</a><a id="footer-email" href="#contact">Email us</a><a id="footer-instagram" href="#contact" hidden>Instagram ↗</a><a id="footer-linkedin" href="#contact" hidden>LinkedIn ↗</a></div></div></div><div class="shell footer-bottom"><span>© <span id="year"></span> <span data-brand>Elite Digital Work</span>. All rights reserved.</span><span>Made to stand out. Built to last. <a href="#top">Back to top ↑</a></span></div></footer>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close" id="dialog-close" aria-label="Close project details">×</button><div id="dialog-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
